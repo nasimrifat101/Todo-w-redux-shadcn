@@ -4,7 +4,7 @@ import Container from "@/components/ui/Container";
 const Todo = () => {
     return (
         <Container>
-            <h1>My Todo</h1>
+            <h1 className="text-center text-2xl">My Todo</h1>
             <TodoContainer/>
         </Container>
     );
